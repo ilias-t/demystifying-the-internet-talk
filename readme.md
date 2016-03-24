@@ -1,5 +1,5 @@
 <style>
-img { display: "block" }
+img { display: block; }
 </style>
 
 #The Internet Demystified
