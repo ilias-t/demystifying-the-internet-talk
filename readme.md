@@ -1,7 +1,3 @@
-<style>
-img { display: block; }
-</style>
-
 #The Internet Demystified
 
 By the end of this talk you will be able to:
