@@ -1,11 +1,31 @@
-#The Internet Demystified
+<!--
+Creator: Ilias Tsangaris
+Market: SF
+-->
 
-By the end of this talk you will be able to:
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+
+
+#How the Internet Works
+
+## Framing
+
+For web developers, it is imperative to understand the innerworkings of the Internet. Just how a racecar driver should understand how their car runs, it is important for those building web applications to have clear mental models of how the Internet functions.
+
+## Objectives
+
+*By the end of this talk, developers will be able to:*
 
 * Explain at a high level how the Internet works
 * Distinguish between the Internet and the World Wide Web
 * Understand why HTML CSS and JavaScript work together so well
 * Articulate what an API is
+
+## Preparation
+
+*Before this workshop, developers should already be able to:*
+
+* Use the Internet
 
 ##The Internet
 
@@ -59,17 +79,27 @@ By the end of this talk you will be able to:
     </figure>
 </details>
 
+##The Internet Protocol Suite
+
+<details>
+    <summary>What are the distinct layers of the Internet protocol suite?</summary>
+    <figure>
+        <h3>Internet Protocol Suite</h3>
+        <img src='imgs/ip-suite.gif' alt='missing' />
+        <br>
+        <figcaption>The suite is a set of communication protocols used in tandem on the Internet. These protocols work together to facilitate a variety of networked communications.</figcaption>
+    </figure>
+</details>
+
 <details>
     <summary>What does TCP/IP mean?</summary>
     <figure>
         <h3>It's part of the Internet Protocol Suite</h3>
-        <img src='imgs/ip-suite.gif' alt='missing' />
+        <img src='imgs/tcp-ip.jpg' alt='missing' />
         <br>
-        <figcaption>The Internet connects computers together using a suite of predefined protocols that makeup the Internet Protocol Suite. TCP/IP stands for Transmission Control Protocol/Internet Protocol. TCP is the protocol that ensures the data sent is reliable, ordered, and error-checked. IP is the protocol concerned with routing the data grams  through the network efficiently.</figcaption>
+        <figcaption>TCP/IP stands for Transmission Control Protocol/Internet Protocol. TCP lives on the transport layer and is the protocol that ensures the data sent is reliable, ordered, and error-checked. IP lives on the Internet (or Internetwork) layer and the is the protocol concerned with routing data grams through the network efficiently.</figcaption>
     </figure>
 </details>
-
-
 
 ##The World Wide Web
 
@@ -87,7 +117,7 @@ By the end of this talk you will be able to:
     <summary>What protocol does the WWW use to communicate?</summary>
     <figure>
         <h3>HTTP</h3>
-        <img src='imgs/http.svg' alt='missing' />
+        <img src='imgs/http.png' alt='missing' />
         <br>
         <figcaption>HTTP is a protocol on the application layer that the World Wide Web uses to communicate. It is responsible for delivering HyperText files and applications. More specifically, browsers rendering HTML files will use the WWW.</figcaption>
     </figure>
@@ -109,7 +139,7 @@ By the end of this talk you will be able to:
         <h3>The Mother of All Demos</h3>
         <img src='imgs/engelbart.jpg' alt='missing' />
         <br>
-        <figcaption>In the '60s Douglas Engelbart demonstrated a machine that was capable of rich media, collaborative text editing, and teleconferencing. Now HTML, aka HyperText Markup Language, enables anyone to design rich media documents that are literally "beyond" (hyper) text.</figcaption>
+        <figcaption>In the '60s Douglas Engelbart [demonstrated](https://www.youtube.com/watch?v=yJDv-zdhzMY) a machine that was capable of rich media, collaborative text editing, and teleconferencing. Now HTML, aka HyperText Markup Language, enables anyone to design rich media documents that are literally "beyond" (hyper) text.</figcaption>
     </figure>
 </details>
 
@@ -132,6 +162,7 @@ By the end of this talk you will be able to:
         <figcaption>You can think of HTML CSS and JS as the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun as it is in charge of organizing content (text, photos, videos, audio, links, etc) into a file. CSS is the adjective as it is entirely concerned with the visualization of the content. JavaScript is the verb as it can add behavior and dynamism to the content.</figcaption>
     </figure>
 </details>
+
 
 ##APIs
 
