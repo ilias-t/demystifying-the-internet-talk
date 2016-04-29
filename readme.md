@@ -10,7 +10,7 @@ Market: SF
 
 ## Framing
 
-For web developers, it is imperative to understand the innerworkings of the Internet. Just how a racecar driver should understand how their car runs, it is important for those building web applications to have clear mental models of how the Internet functions.
+For web developers, it is imperative to understand the inner-workings of the Internet. Just how a race-car driver should understand how their car runs, it is important for those building web applications to have clear mental models of how the Internet functions.
 
 ## Objectives
 
@@ -206,48 +206,13 @@ For web developers, it is imperative to understand the innerworkings of the Inte
     </figure>
 </details>
 
-<details>
-    <summary>How could we make a "Hello World" API using Node?</summary>
-    <figure>
-        <h3>Hello World API in Node</h3>
-        
-```js
-//Lets require/import the HTTP module
-var http = require('http');
-
-//Lets define a port we want to listen to
-const PORT=8080; 
-
-//We need a function which handles requests and send response
-function handleRequest(request, response){
-    response.end('Hello World');
-}
-
-//Create a server
-var server = http.createServer(handleRequest);
-
-//Lets start our server
-server.listen(PORT, function(){
-    //Callback triggered when server is successfully listening. Hurray!
-    console.log("Server listening on port", PORT);
-});
-```
-</details>
-
 ##Q & A
 
-<details>
-    <summary>Summary</summary>
-    <figure>
-        <h3>Internet Demystified!</h3>
-        <img src='imgs/win-the-internet.gif' alt='missing' />
-        <br>
-        <figcaption>There's more marketing jargon and acronyms in the world than ever before. All the concepts are very abstract as software is not tangible. Understanding these basic building blocks of modern web technologies will help you communicate with technical people and independently learn new technical concepts.</figcaption>
-    </figure>
-    <h3>Contact</h3>
-    <ul>
-        <li>Twitter: @iTsangaris</li>
-        <li>Github: iliastsangaris</li>
-        <li>Email: ilias@ga.co</li>
-    </ul>
-</details>
+## Closing Thoughts
+
+There's tons of technical acronyms and jargon in the world. Understanding the basic building blocks of Internet & web technologies will help you communicate, grasp new concepts independently, and demystify concepts on your learning journey to become better web developers.
+
+## Further Resources
+
+* [Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+* [A Packet's Tale](https://www.youtube.com/watch?v=Gfoc3Cxgnpk)
