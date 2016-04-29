@@ -163,6 +163,28 @@ For web developers, it is imperative to understand the inner-workings of the Int
     </figure>
 </details>
 
+<details>
+    <summary>What are the distint parts of a URL?</summary>
+    <figure>
+        <h3>URL</h3>
+        <pre>
+		http://www.kittengifs.com:80/popular-gifs#results?term=cute&page=2
+		|-----|-----------------|---|-----------|--------|----------------|
+		   |           |          |       |          |           |
+		 protocol    host       port    path     fragment  query-string
+        </pre>
+        <figcaption>
+        	<ul>
+	        	<li>Protocol: a set of conventions regarding how information will be communicated</li>
+				<li>Host - the server that is connected to</li>
+				<li>Port (optional) - the target port on that server</li>
+				<li>Path - the specific file or data that is accessed on the server</li>
+				<li>Fragment (optional) - used to jump to a specific `id` of the page</li>
+				<li>Query String (optional) - used to include additional information about what we're requesting</li>
+			</ul>
+        </figcaption>
+    </figure>
+</details>
 
 ##APIs
 
@@ -214,5 +236,8 @@ There's tons of technical acronyms and jargon in the world. Understanding the ba
 
 ## Further Resources
 
-* [Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-* [A Packet's Tale](https://www.youtube.com/watch?v=Gfoc3Cxgnpk)
+* [A Packet's Tale Video](https://www.youtube.com/watch?v=Gfoc3Cxgnpk)
+* [HTTP Intro](https://dev.opera.com/articles/http-basic-introduction/)
+* [TCP/IP Protocol Explained](http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals/)
+* [Internet Protocol Suite Wikipedia Page](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+* [How the Internet Works — Stanford](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
