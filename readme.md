@@ -101,6 +101,16 @@ For web developers, it is imperative to understand the inner-workings of the Int
     </figure>
 </details>
 
+<details>
+    <summary>What is the DNS and why is it useful?</summary>
+    <figure>
+        <h3>Domain Name System</h3>
+        <img src='imgs/dns.gif' alt='missing' />
+        <br>
+        <figcaption>The DNS is an Application layer protocol for translating "human-friendly" computer hostnames into IP addresses. Think of it like a contact list as it allows one to lookup a phone number based on a memorable name.</figcaption>
+    </figure>
+</details>
+
 ##The World Wide Web
 
 <details>
@@ -224,7 +234,7 @@ For web developers, it is imperative to understand the inner-workings of the Int
         <h3>The Request/Response Cycle</h3>
         <img src='imgs/req-res-cycle.gif' alt='missing' />
         <br>
-        <figcaption>Every time you visit a webpage your computer is acting as a client that will send a request to a URL. This URL maps to a specific server somewhere else in the world. That server is tasked with responding back to you with the information you have requested. Each request must contain two things: a URL (also refered to as a path or end point) and an HTTP verb. The verb options are: GET, POST, PUT, and DELETE, which mean you want to read, create, edit, or delete some data at a specific end point.</figcaption>
+        <figcaption>Every time you visit a webpage your computer is acting as a client that will send a request to a URL. This URL maps to a specific server somewhere else in the world. That server is tasked with responding back to you with the information you have requested. Each request must contain two things: **a URL**, which represents the location, and an **HTTP Verb**, which represents the intent. The verb options are: POST, GET, PUT, and DELETE, which mean you want to respectively Create, Read, Update, or Delete (CRUD) data located at a specific location.</figcaption>
     </figure>
 </details>
 
