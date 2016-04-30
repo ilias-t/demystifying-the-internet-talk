@@ -8,21 +8,20 @@ Market: SF
 
 #How the Internet Works
 
-## Framing
+## Why is this important?
+*This workshop is relevant to developers because:*
 
-For web developers, it is imperative to understand the inner-workings of the Internet. Just how a race-car driver should understand how their car runs, it is important for those building web applications to have clear mental models of how the Internet functions.
+Just how a race-car driver should understand how their car runs, it is imperative for web developers to have clear mental models of the Internet functions when building web applications. Knowledge of Internet fundamentals will allow for new concepts to be understood in a more complete context.
 
-## Objectives
+## What are the objectives?
+*After this workshop, developers will be able to:*
 
-*By the end of this talk, developers will be able to:*
-
-* Explain at a high level how the Internet works
+* Explain at a high level how the Internet transmits data
 * Distinguish between the Internet and the World Wide Web
 * Understand why HTML CSS and JavaScript work together so well
 * Articulate what an API is
 
-## Preparation
-
+## Where should we be now?
 *Before this workshop, developers should already be able to:*
 
 * Use the Internet
