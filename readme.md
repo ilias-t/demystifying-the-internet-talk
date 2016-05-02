@@ -74,7 +74,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>Multiplexing</h3>
         <img src='imgs/multiplexing.png' alt='missing' />
         <br>
-        <figcaption>Multiplexing allows multiple data streams to be share one wire by splitting each stream into a separate channel with a different bandwidth.</figcaption>
+        <figcaption>Multiplexing allows multiple data streams to share one wire by splitting each stream into a separate channel with a different bandwidth.</figcaption>
     </figure>
 </details>
 
@@ -173,7 +173,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
 </details>
 
 <details>
-    <summary>What are the distint parts of a URL?</summary>
+    <summary>What are the distinct parts of a URL?</summary>
     <figure>
         <h3>URL</h3>
         <pre>
@@ -185,12 +185,12 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <figcaption>
         	<ul>
 	        	<li>Protocol: a set of conventions regarding how information will be communicated</li>
-				<li>Host - the server that is connected to</li>
-				<li>Port (optional) - the target port on that server</li>
-				<li>Path - the specific file or data that is accessed on the server</li>
-				<li>Fragment (optional) - used to jump to a specific `id` of the page</li>
-				<li>Query String (optional) - used to include additional information about what we're requesting</li>
-			</ul>
+			<li>Host - the server that is connected to</li>
+			<li>Port (optional) - the target port on that server</li>
+			<li>Path - the specific file or data that is accessed on the server</li>
+			<li>Fragment (optional) - used to jump to a specific `id` of the page</li>
+			<li>Query String (optional) - used to include additional information about what we're requesting</li>
+		</ul>
         </figcaption>
     </figure>
 </details>
@@ -198,7 +198,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
 ##APIs
 
 <details>
-    <summary>What is the definition of an API</summary>
+    <summary>What is the definition of an API?</summary>
     <figure>
         <h3>Application Programming Interface</h3>
         <img src='imgs/string-api.png' alt='missing' />
