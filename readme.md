@@ -168,7 +168,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>CSS & JS Endow Style and Behavior to HTML</h3>
         <img src='imgs/web-technologies.png'/>
         <br>
-        <figcaption>You can think of HTML CSS and JS as the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun as it is in charge of organizing content such as text, photos, and links into a file. CSS is the adjective as it is entirely concerned with the visualization of the content. JavaScript is the verb that endows the website with behavior, making the otherwise static page interactive.</figcaption>
+        <figcaption>You can think of HTML CSS and JS as the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun as it is in charge of organizing content such as text, photos, and links into a file. CSS is the adjective as it is concerned with the visualization of the content. Finally, JavaScript is the verb that endows the website with behavior, making the otherwise static page interactive.</figcaption>
     </figure>
 </details>
 
@@ -203,7 +203,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>Application Programming Interface</h3>
         <img src='imgs/string-api.png'/>
         <br>
-        <figcaption>In software an API, or Application Programming Interface, represents all the available methods for how one can interact with a piece software. For example, in computer languages a set of alphabetical characters, such as `"hello"`, is referred to as a String. If a programmer wanted to act upon this String, they could leverage the String's API, which contains the ability to call `.upcase` or replace each character with its uppercase counterpart, generating `"HELLO"`.</figcaption>
+        <figcaption>In software an API, or Application Programming Interface, represents all the available methods for how one can interact with a piece software. For example, in computer languages a set of alphabetical characters, such as `"hello"`, is referred to as a String. If a programmer wanted to act upon this String, they could leverage the String's API, which contains the ability to call `.upcase`, which replaces each character with its uppercase counterpart, generating `"HELLO"`.</figcaption>
     </figure>
 </details>
 
@@ -213,7 +213,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>A Car</h3>
         <img src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fast-roadster-driving-royalty-free-image-581698181-1560193856.jpg?crop=1xw:0.81481xh;center,top&resize=768:*'/>
         <br>
-        <figcaption>The the purpose of all APIs are to abstract a lower-level implementation from a user. A car's API can be considered to be two pedals and a steering wheel. The driver does not need to understand or worry about how the car functions internally but only how to operate the vehicle based on this interface that is exposed to them.</figcaption>
+        <figcaption>The purpose of all APIs are to abstract a lower-level implementation from a user. A car's API can be considered to be two pedals and a steering wheel. A driver does not need to concern themselves with how the car internally functions, but only how to operate the vehicle based on this interface that is exposed to them.</figcaption>
     </figure>
 </details>
 
@@ -223,7 +223,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>An Interface to Twitter's Data</h3>
         <img src='imgs/twitter-api-logo.png'/>
         <br>
-        <figcaption>First we must recognize that Twitter's website allows users to indirectly access and manipulate aspects of Twitter's database. When users view the contents of their feed or post a new Tweet they are respectively reading and creating data in this database. Twitter's API allows a more direct interaction this database, bypassing the website entirely. Instead of a steering-wheel and pedals, Twitter's API, and all web APIs, consist of a set of URLs that indicate what data is being acted upon and an associated HTTP verb that signals whether the client intends to read or update that data.</figcaption>
+        <figcaption>When users view the contents of their Twitter feed or post a new Tweet they are respectively reading data from and creating data in Twitter's database. Twitter's API, bypasses the website, allowing for a more direct interaction with this database. Instead of a steering-wheel and pedals, Twitter's API, and all web APIs, consist of a set of URLs that indicate what data is being acted upon and an associated HTTP verb that signals whether the user intends to read or update that data.</figcaption>
     </figure>
 </details>
 
