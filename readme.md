@@ -128,7 +128,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>HTTP</h3>
         <img src='imgs/http.png'/>
         <br>
-        <figcaption>HTTP is a protocol on the application layer that the World Wide Web uses to communicate. It is responsible for delivering HyperText files and applications. More specifically, browsers rendering HTML files will use the WWW.</figcaption>
+        <figcaption>HTTP is a protocol on the application layer that the World Wide Web (WWW) uses to communicate. It is responsible for delivering HyperText files and applications. More specifically, browsers rendering HTML files will use the WWW.</figcaption>
     </figure>
 </details>
 
@@ -158,17 +158,17 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>W3C</h3>
         <img src='imgs/w3c.jpg'/>
         <br>
-        <figcaption>The Technical Architecture Group meets regularly to discuss, document, and build Web standards. This group consists of 9 participants, some from outside organizations like Microsoft, Google, and Mozilla. They are known as the World Wide Web Consortium or W3C.</figcaption>
+        <figcaption>The Technical Architecture Group meets regularly to discuss, document, and build Web standards. This group consists of nine participants, some from outside organizations like Microsoft, Google, and Mozilla. They are known as the World Wide Web Consortium or W3C.</figcaption>
     </figure>
 </details>
 
 <details>
-    <summary>So how does HTML relate to CSS and Javascript?</summary>
+    <summary>How do HTML, CSS, and Javascript work together?</summary>
     <figure>
         <h3>CSS & JS Endow Style and Behavior to HTML</h3>
         <img src='imgs/web-technologies.png'/>
         <br>
-        <figcaption>You can think of HTML CSS and JS as the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun as it is in charge of organizing content (text, photos, videos, audio, links, etc) into a file. CSS is the adjective as it is entirely concerned with the visualization of the content. JavaScript is the verb as it can add behavior and dynamism to the content.</figcaption>
+        <figcaption>You can think of HTML CSS and JS as the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun as it is in charge of organizing content such as text, photos, and links into a file. CSS is the adjective as it is entirely concerned with the visualization of the content. JavaScript is the verb that endows the website with behavior, making the otherwise static page interactive.</figcaption>
     </figure>
 </details>
 
@@ -203,45 +203,29 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>Application Programming Interface</h3>
         <img src='imgs/string-api.png'/>
         <br>
-        <figcaption>An API is simply the interface for how one interacts with a piece of software. In programming a string of characters, such as `"hello"`, is refered to as a String. From the above example, we see that `.upcase` is part of a String's API.</figcaption>
+        <figcaption>In software an API, or Application Programming Interface, represents all the available methods for how one can interact with a piece software. For example, in computer languages a set of alphabetical characters, such as `"hello"`, is referred to as a String. If a programmer wanted to act upon this String, they could leverage the String's API, which contains the ability to call `.upcase` or replace each character with its uppercase counterpart, generating `"HELLO"`.</figcaption>
     </figure>
 </details>
 
 <details>
     <summary>Can you give me a real world example of one?</summary>
     <figure>
-        <h3>A Restaurant</h3>
-        <img src='imgs/restaurant.jpg'/>
+        <h3>A Car</h3>
+        <img src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fast-roadster-driving-royalty-free-image-581698181-1560193856.jpg?crop=1xw:0.81481xh;center,top&resize=768:*'/>
         <br>
-        <figcaption>The purpose of a restaurant is to abstract the effort of making food away from the client. A restaurant's menu represents their API. The server waits on a client for a request. When ordering, the client references the restaurant's API, the menu, to send a specific, predefined request to the server. When the server delivers the dish back to the client's table, the request is completed with a response (more on the request/response cycle later).</figcaption>
+        <figcaption>The the purpose of all APIs are to abstract a lower-level implementation from a user. A car's API can be considered to be two pedals and a steering wheel. The driver does not need to understand or worry about how the car functions internally but only how to operate the vehicle based on this interface that is exposed to them.</figcaption>
     </figure>
 </details>
 
 <details>
-    <summary>When we talk about Twitter's API, what does that mean?</summary>
+    <summary>What does "Twitter's API" refer to?</summary>
     <figure>
         <h3>An Interface to Twitter's Data</h3>
         <img src='imgs/twitter-api-logo.png'/>
         <br>
-        <figcaption>Developers may want a way to access Twitter's data, so Twitter exposes an interface for them to do so. Big companies exposing their data over the internet is an extremely simplified idea of what an API is. Litterally every piece of software, at some level, has an interface to access it!</figcaption>
+        <figcaption>First we must recognize that Twitter's website allows users to indirectly access and manipulate aspects of Twitter's database. When users view the contents of their feed or post a new Tweet they are respectively reading and creating data in this database. Twitter's API allows a more direct interaction this database, bypassing the website entirely. Instead of a steering-wheel and pedals, Twitter's API, and all web APIs, consist of a set of URLs that indicate what data is being acted upon and an associated HTTP verb that signals whether the client intends to read or update that data.</figcaption>
     </figure>
 </details>
-
-<details>
-    <summary>How could we interact with a third party's web API?</summary>
-    <figure>
-        <h3>The Request/Response Cycle</h3>
-        <img src='imgs/req-res-cycle.gif'/>
-        <br>
-        <figcaption>Every time you visit a webpage your computer is acting as a client that will send a request to a URL. This URL maps to a specific server somewhere else in the world. That server is tasked with responding back to you with the information you have requested. Each request must contain two things: **a URL**, which represents the location, and an **HTTP Verb**, which represents the intent. The verb options are: POST, GET, PUT, and DELETE, which mean you want to respectively Create, Read, Update, or Delete (CRUD) data located at a specific location.</figcaption>
-    </figure>
-</details>
-
-## Q & A
-
-## Closing Thoughts
-
-There's tons of technical acronyms and jargon in the world. Understanding the basic building blocks of Internet & web technologies will help you communicate, grasp new concepts independently, and demystify concepts on your learning journey to become better web developers.
 
 ## Further Resources
 
