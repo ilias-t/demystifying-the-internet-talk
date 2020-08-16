@@ -26,7 +26,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
 
 * Use the Internet
 
-##The Internet
+## The Internet
 
 <details>
     <summary>How did the Internet begin?</summary>
@@ -78,7 +78,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
     </figure>
 </details>
 
-##The Internet Protocol Suite
+## The Internet Protocol Suite
 
 <details>
     <summary>What are the distinct layers of the Internet protocol suite?</summary>
@@ -110,7 +110,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
     </figure>
 </details>
 
-##The World Wide Web
+## The World Wide Web
 
 <details>
     <summary>How does the World Wide Web compare to the Internet?</summary>
@@ -195,7 +195,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
     </figure>
 </details>
 
-##APIs
+## APIs
 
 <details>
     <summary>What is the definition of an API?</summary>
@@ -237,7 +237,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
     </figure>
 </details>
 
-##Q & A
+## Q & A
 
 ## Closing Thoughts
 
