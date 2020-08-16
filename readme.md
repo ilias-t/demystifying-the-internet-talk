@@ -163,7 +163,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
 </details>
 
 <details>
-    <summary>How do HTML, CSS, and Javascript work together?</summary>
+    <summary>How do HTML, CSS, and Javascript Interact?</summary>
     <figure>
         <h3>CSS & JS Endow Style and Behavior to HTML</h3>
         <img src='imgs/web-technologies.png'/>
