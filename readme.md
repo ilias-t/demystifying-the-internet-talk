@@ -168,7 +168,7 @@ Just how a race-car driver should understand how their car runs, it is imperativ
         <h3>CSS & JS Endow Style and Behavior to HTML</h3>
         <img src='imgs/web-technologies.png'/>
         <br>
-        <figcaption>You can think of HTML, CSS, and JS as the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun as it is in charge of organizing content such as text, photos, and links. CSS is the adjective as it describes the content's appearance. Finally, JavaScript is the verb that endows the website with behavior, making the otherwise static page interactive.</figcaption>
+        <figcaption>HTML, CSS, and JS can be compared to the three major parts of speech in human language: nouns, adjectives, and verbs. HTML is the noun that defines and organizes the content; CSS is the adjective that describes the appearance; and JavaScript is the verb that endows the website with behavior, making the page interactive.</figcaption>
     </figure>
 </details>
 
